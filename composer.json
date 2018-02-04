@@ -1,0 +1,23 @@
+{
+    "name": "itstructure/yii2-ckeditor",
+    "description": "CKEditor widget for Yii2 Framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "CKEditor"],
+    "require": {
+        "yiisoft/yii2": "~2.0.5",
+        "ckeditor/ckeditor": "~4.7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Girnik",
+            "email": "girnikandrey@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Itstructure\\CKEditor\\": "src/"
+        }
+    }
+}
