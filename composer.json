@@ -4,7 +4,8 @@
     "type": "yii2-extension",
     "keywords": ["yii2", "yii 2", "CKEditor"],
     "require": {
-        "yiisoft/yii2": "~2.0.5",
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "2.*",
         "ckeditor/ckeditor": "~4.7.1"
     },
     "license": "MIT",
@@ -14,7 +15,8 @@
             "email": "girnikandrey@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Itstructure\\CKEditor\\": "src/"
