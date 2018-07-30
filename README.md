@@ -24,12 +24,12 @@ template.
 
 Via composer:
 
-```composer require "itstructure/yii2-ckeditor": "^1.1.0"```
+```composer require "itstructure/yii2-ckeditor": "^1.1.1"```
 
 or in section **require** of composer.json file set the following:
 ```
 "require": {
-    "itstructure/yii2-ckeditor": "^1.1.0"
+    "itstructure/yii2-ckeditor": "^1.1.1"
 }
 ```
 and command ```composer install```, if you install yii2 project extensions first,
@@ -74,6 +74,8 @@ echo $this->form->field($this->model, $this->getFieldName())
                 'filebrowserImageUploadUrl' => '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
                 'filebrowserWindowWidth' => '1000',
                 'filebrowserWindowHeight' => '700',
+                'allowedContent' => true,
+                'language' => 'en',
             ]
         ]
     );
@@ -83,7 +85,7 @@ echo $this->form->field($this->model, $this->getFieldName())
 
 - basic
 - full
-- standart
+- standard
 
 License
 ----------------------------

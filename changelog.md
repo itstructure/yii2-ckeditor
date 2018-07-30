@@ -1,5 +1,8 @@
 ### CHANGE LOG:
 
+**1.1.1 July 30, 2018:**
+- Modify README for preset and configuration example.
+
 **1.1.0 May 12, 2018:**
 - Modify dependencies: minimum-stability is set to dev.
 - Set prefer-stable is true
