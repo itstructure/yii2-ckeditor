@@ -1,5 +1,8 @@
 ### CHANGE LOG:
 
+**1.1.2 August 9, 2018:**
+- Simple code style fixes.
+
 **1.1.1 July 30, 2018:**
 - Modify README for preset and configuration example.
 

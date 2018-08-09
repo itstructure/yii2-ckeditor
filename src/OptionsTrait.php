@@ -36,19 +36,21 @@ trait OptionsTrait
     /**
      * Set the clientOptions.
      * Options from presets are merging with the client options.
+     *
+     * @return void
      */
-    protected function loadOptions()
+    protected function loadOptions(): void
     {
         $options = [];
 
-        if ($this->preset == 'custom'){
+        if ($this->preset == 'custom') {
             $optionsFile = null;
         } else {
             $optionsFile = __DIR__ . '/presets/' . $this->preset . '.php';
         }
 
         if ($optionsFile !== null) {
-            if (!is_file($optionsFile)){
+            if (!is_file($optionsFile)) {
                 throw new InvalidConfigException('The CKEditor options file can not be loaded.');
             }
             $options = require($optionsFile);
