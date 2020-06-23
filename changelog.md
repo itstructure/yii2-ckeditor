@@ -1,5 +1,8 @@
 ### CHANGE LOG:
 
+**1.1.3 June 23, 2020:**
+- Modify README syntax.
+
 **1.1.2 August 9, 2018:**
 - Simple code style fixes.
 

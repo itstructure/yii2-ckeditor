@@ -1,8 +1,7 @@
 Yii2 CKEditor widget
 ==============
 
-1 Introduction
-----------------------------
+## Introduction
 
 [![Latest Stable Version](https://poser.pugx.org/itstructure/yii2-ckeditor/v/stable)](https://packagist.org/packages/itstructure/yii2-ckeditor)
 [![Latest Unstable Version](https://poser.pugx.org/itstructure/yii2-ckeditor/v/unstable)](https://packagist.org/packages/itstructure/yii2-ckeditor)
@@ -14,30 +13,29 @@ Yii2 CKEditor widget
 This is a **CKEditor** widget for the Yii2 framework with [CKEditor](http://docs.ckeditor.com/) 
 template.
 
-2 Dependencies
-----------------------------
+## Dependencies
 - php >= 7.1
 - composer
 
-3 Installation
-----------------------------
+## Installation
 
 Via composer:
 
-```composer require "itstructure/yii2-ckeditor": "^1.1.2"```
+`composer require "itstructure/yii2-ckeditor": "~1.1.3"`
 
 or in section **require** of composer.json file set the following:
-```
+
+```json
 "require": {
-    "itstructure/yii2-ckeditor": "^1.1.2"
+    "itstructure/yii2-ckeditor": "~1.1.3"
 }
 ```
-and command ```composer install```, if you install yii2 project extensions first,
 
-or command ```composer update```, if all yii2 project extensions are already installed.
+and command `composer install`, if you install yii2 project extensions first,
 
-4 Usage
-----------------------------
+or command `composer update`, if all yii2 project extensions are already installed.
+
+## Usage
 
 Example of using in application with an active model and ckfinder:
 
@@ -81,14 +79,14 @@ echo $this->form->field($this->model, $this->getFieldName())
     );
 ```
 
-```preset``` option can be:
+`preset` option can be:
 
 - basic
 - full
 - standard
 
-License
-----------------------------
-Copyright © 2018 Andrey Girnik girnikandrey@gmail.com.
+## License
+
+Copyright © 2018-2020 Andrey Girnik girnikandrey@gmail.com.
 
 Licensed under the [MIT license](http://opensource.org/licenses/MIT). See LICENSE.txt for details.
