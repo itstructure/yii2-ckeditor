@@ -21,7 +21,7 @@ template.
 
 Via composer:
 
-`composer require itstructure/yii2-ckeditor ~1.1.4`
+`composer require itstructure/yii2-ckeditor ~1.1.5`
 
 or in section **require** of composer.json file set the following:
 
@@ -87,6 +87,6 @@ echo $this->form->field($this->model, $this->getFieldName())
 
 ## License
 
-Copyright © 2018-2021 Andrey Girnik girnikandrey@gmail.com.
+Copyright © 2018-2023 Andrey Girnik girnikandrey@gmail.com.
 
 Licensed under the [MIT license](http://opensource.org/licenses/MIT). See LICENSE.txt for details.
