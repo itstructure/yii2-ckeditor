@@ -21,7 +21,7 @@ template.
 
 Via composer:
 
-`composer require itstructure/yii2-ckeditor ~1.1.5`
+`composer require itstructure/yii2-ckeditor ~1.1.6`
 
 or in section **require** of composer.json file set the following:
 
