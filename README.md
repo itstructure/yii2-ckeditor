@@ -10,7 +10,7 @@ Yii2 CKEditor widget
 [![Build Status](https://scrutinizer-ci.com/g/itstructure/yii2-ckeditor/badges/build.png?b=master)](https://scrutinizer-ci.com/g/itstructure/yii2-ckeditor/build-status/master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/itstructure/yii2-ckeditor/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/itstructure/yii2-ckeditor/?branch=master)
 
-This is a **CKEditor** widget for the Yii2 framework with [CKEditor](http://docs.ckeditor.com/) 
+This is a **CKEditor** widget for the Yii2 v2.0.x framework with [CKEditor](http://docs.ckeditor.com/) 
 template.
 
 ## Dependencies
@@ -21,13 +21,13 @@ template.
 
 Via composer:
 
-`composer require itstructure/yii2-ckeditor ~1.1.6`
+`composer require itstructure/yii2-ckeditor ~1.1.7`
 
 or in section **require** of composer.json file set the following:
 
 ```json
 "require": {
-    "itstructure/yii2-ckeditor": "~1.1.4"
+    "itstructure/yii2-ckeditor": "~1.1.7"
 }
 ```
 
@@ -87,6 +87,6 @@ echo $this->form->field($this->model, $this->getFieldName())
 
 ## License
 
-Copyright © 2018-2023 Andrey Girnik girnikandrey@gmail.com.
+Copyright © 2018-2025 Andrey Girnik girnikandrey@gmail.com.
 
 Licensed under the [MIT license](http://opensource.org/licenses/MIT). See LICENSE.txt for details.
